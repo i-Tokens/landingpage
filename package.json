@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./css/main.css -o ./build/main.css --watch"
+    "build": "./build.sh",
+    "ui-kit": "git subtree pull --prefix=ui-kit ../ui-kit master --squash"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.9",
+    "@tailwindcss/typography": "^0.5.15",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.48",
     "tailwindcss": "^3.4.14"
