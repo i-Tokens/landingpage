@@ -8,6 +8,7 @@ npx tailwindcss -i ./src/main.css -o ./public/css/main.css --config ./ui-kit/tai
 
 # Copy HTML files to the public directory
 cp ./src/index.html ./public/index.html
+cp ./src/manifest.json ./public/manifest.json
 
 # Copy any assets (e.g., images, logos) to the public directory
 cp -r ./ui-kit/assets ./public/assets

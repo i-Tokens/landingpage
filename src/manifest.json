@@ -1,0 +1,21 @@
+{
+  "name": "iTokens",
+  "short_name": "iTokens",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "iTokens is building something amazing. Stay tuned!",
+  "icons": [
+    {
+      "src": "./assets/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
