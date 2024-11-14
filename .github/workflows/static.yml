@@ -39,6 +39,8 @@ jobs:
         run: npm install
       - name: Run Build Script
         run: ./build.sh
+      - name: Add CNAME File
+        run: echo "i-tokens.xyz" > ./public/CNAME
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
