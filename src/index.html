@@ -7,16 +7,45 @@
   <link rel="stylesheet" href="./css/main.css">
   <link rel="manifest" href="./manifest.json">
   <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Wix+Madefor+Display:wght@400..800&display=swap"
+    rel="stylesheet">
   <title>iTokens - Coming Soon</title>
 </head>
 
-<body class="flex items-center justify-center h-screen bg-background text-text">
-  <div class="text-center px-4">
-    <img src="./assets/logo-250x250.svg" alt="iTokens Logo" class="h-24 w-24 mx-auto mb-6">
-    <h1 class="text-5xl md:text-6xl font-bold mb-6">iTokens</h1>
-    <p class="text-xl md:text-2xl">We are building something amazing. Stay tuned!</p>
-    <p class="text-lg mt-4">Check back soon for updates on our progress.</p>
-  </div>
+<body class="flex flex-col min-h-screen">
+  <header class="h-20 p-5">
+    <div class="flex justify-between items-center h-full">
+      <img src="./assets/stripes.svg" alt="iTokens Logo" class="h-full w-auto">
+      <img src="./assets/logo-long.svg" alt="iTokens Logo" class="h-full w-auto p-1">
+    </div>
+  </header>
+
+  <main class="flex flex-1 flex-col justify-around items-center p-5">
+    <p class="text-2xl">🚧 Building something cool, stay tuned 🚧</p>
+    <p class="flex flex-col items-center gap-2 text-2xl">Coming soon to<img class="h-10"
+        src="./assets/starknet-logo-name.svg" alt="Starknet logo">
+    </p>
+  </main>
+
+  <footer class="p-5 border-t-[1px] border-white">
+    <div class="flex flex-col sm:flex-row justify-between gap-5">
+      <p class="text-center">© 2024 iTokens. All rights reserved.</p>
+      <div class="flex justify-center gap-8">
+        <a href="https://x.com/i_Tokens_" target="_blank">
+          <img src="./assets/x.png" alt="Twitter (X)" class="h-6 w-6">
+        </a>
+        <a href="https://x.com/i_Tokens_" target="_blank">
+          <img src="./assets/discord.svg" alt="Discord" class="h-6 w-6">
+        </a>
+        <a href="https://github.com/i-Tokens" target="_blank">
+          <img src="./assets/git.png" alt="GitHub" class="h-6 w-6">
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
