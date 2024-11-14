@@ -15,7 +15,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["IBM Plex Sans", "sans-serif"],
+        sans: ["Orbitron", "sans-serif"],
       },
       spacing: {
         4: "1rem",
